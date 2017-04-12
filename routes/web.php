@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PostsController@index');
 
-Auth::routes();
+//Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+//controller
+//eloquent model
+//migration = create
